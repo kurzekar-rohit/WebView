@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String url = "https://www.unboundb2b.com";
+        String url = "https://techresearchonline.com/";
         webView = (WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new MyWebViewClient());
         webView.loadUrl(url);
