@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         String url = "https://techresearchonline.com/";
+        // url change
         webView = (WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new MyWebViewClient());
         webView.loadUrl(url);
